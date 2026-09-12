@@ -1,5 +1,5 @@
-ruangan = ("C401", "C402", "C403", "C404", "C405", "C406", "C407", "C408")
-peminjaman = []
+ruangan = ("C401", "C402", "C403", "C404", "C405", "C406", "C407", "C408") #Tuple buat menyediakan ruangan yang tersedia di FT UNMUL
+peminjaman = [] #List untuk menambah/mengurangi data jadwal ruangan yang dipinjam
 
 
 print("==========================================================")
