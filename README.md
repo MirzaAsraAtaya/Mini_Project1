@@ -21,7 +21,8 @@ Jadi, menu pertama ini adalah fitur melihat jadwal ruangan yang sudah dipinjam s
 2) Penjelasan ketika user memilih menu 2 (Tambah Peminjaman Ruangan)
    <img width="480" height="330" alt="gambar" src="https://github.com/user-attachments/assets/eff12326-e9d0-4b9f-a5aa-4ab409d6ce36" />
    
-Menu kedua ini adalah fitur untuk menambah ruangan yang mau dipinjam, pada fitur ini terdapat perulangan while True (sebagai perulangan jika ID telah digunakan dan kalau ada jadwal yang bentrok), for (untuk mengecek setiap data yang ada di data list peminjaman), dan conditional sentence if else. Sistem bekerja dimulai dengan menginput ID, jika ID sudah pernah dipakai sebelumnya, maka user akan disuruh untuk input ulang ID yang berbeda. Jika ID belum pernah digunakan, maka user akan lanjut untuk menginput nama, kode ruangan, tanggal, dan waktu peminjaman ruangan. Setelah user menginput data data tadi, sistem akan memeriksa, apakah jadwalnya bentrok atau tidak. jika bentrok, maka outputnya akan seperti gambar di samping ini.
+Menu kedua ini adalah fitur untuk menambah ruangan yang mau dipinjam, pada fitur ini terdapat perulangan while True (sebagai perulangan jika ID telah digunakan dan kalau ada jadwal yang bentrok), for (untuk mengecek setiap data yang ada di data list peminjaman), dan conditional sentence if else. Sistem bekerja dimulai dengan menginput ID, jika ID sudah pernah dipakai sebelumnya, maka user akan disuruh untuk input ulang ID yang berbeda. Jika ID belum pernah digunakan, maka user akan lanjut untuk menginput nama, kode ruangan, tanggal, dan waktu peminjaman ruangan. Setelah user menginput data data tadi, sistem akan memeriksa, apakah jadwalnya bentrok atau tidak. jika bentrok, maka outputnya akan seperti gambar di bawah ini.
+
 <img width="458" height="117" alt="Screenshot 2026-09-12 172109" src="https://github.com/user-attachments/assets/5c5fb93b-4a63-4d39-bbfb-5246271bc244" />
 
 Kemudian data tersebut akan masuk ke dalam list peminjaman dengan menggunakan perintah .append
@@ -31,10 +32,12 @@ Kemudian data tersebut akan masuk ke dalam list peminjaman dengan menggunakan pe
 Menu ketiga ini adalah fitur untuk mengubah ruangan yang mau dipinjam, mekanismenya kurang lebih sama seperti menu kedua hanya saja karena menu ketiga ini untuk mengubah jadi ada sedikit yang membedakan, yaitu adanya baris index_data = 0 yang fungsinya untuk menentukan posisi awal data dalam list dan index_data = index_data + 1 yang fungisinya untuk menambah posisi tersebut setiap kali data yang diperiksa belum sesuai, sampai ID yang dicari ditemukan dengan perulangan for. Dibawah ini adalah output ketika sebelum dan sesudah ada perubahan jadwal.
 
 <img width="287" height="111" alt="Screenshot 2026-09-12 173712" src="https://github.com/user-attachments/assets/5c9c7285-aa7a-4aab-aa53-06d755cb88cc" /> 
-Sebelum Perubahan Jadwal
+
+Sebelum Perubahan Jadwal (Lihat yang ID P001 yak)
 
 <img width="411" height="260" alt="gambar" src="https://github.com/user-attachments/assets/c446995c-6dc7-4cb3-91a2-c0d4a34f0a40" /> 
-Setelah perubahan jadwal
+
+Setelah perubahan jadwal (Lihat yang id P001 yak)
 
 
 4) Penjelasan ketika user memilih menu 4 (Batalkan Peminjaman Ruangan)
