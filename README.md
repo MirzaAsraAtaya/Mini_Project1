@@ -1,7 +1,9 @@
-# Mini_Project1
+# Mini_Project_1_Mirza Asra Ataya
 
 Nama: Mirza Asra Ataya 
 
 NIM: 2609116043
 
-Kelas B
+Kelas B 26'
+
+
