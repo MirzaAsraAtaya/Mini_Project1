@@ -23,7 +23,7 @@ while True:
         print(" ")
         print("=== Jadwal Peminjaman Ruangan ===")
 
-        if len(peminjaman) == 0:
+        if len(peminjaman) == 0: #len disini berfungsi untuk menghitung jumlah item atau elemen yang ada di dalam list peminjaman. Jika peminjaman == 0 maka belum ada jadwal yang massuk
             print("Belum ada data ruangan yang dipinjam")
             print(" ")
 
@@ -91,14 +91,14 @@ while True:
         id_peminjaman = input("Masukkan ID peminjaman yang ingin diubah: ")
 
         id_ditemukan = False
-        index_data = 0
+        index_data = 0  #digunakan sebagai penanda posisi awal data dalam list.
 
         for data in peminjaman:
             if data[0] == id_peminjaman:
                 id_ditemukan = True
                 break
 
-            index_data = index_data + 1
+            index_data = index_data + 1 #Digunakan untuk menambah posisi tersebut setiap kali data yang diperiksa belum sesuai, sampai ID yang dicari ditemukan oleh perulangan for
         
         if id_ditemukan:
             print("Data peminjaman ditemukan.")
